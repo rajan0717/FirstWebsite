@@ -1,0 +1,263 @@
+
+.bi-list {
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(4, 154, 247);
+}
+.main div img {
+    width: 60%;
+    height: 500px;
+    margin-left: 5%;
+}
+.main-contents {
+    background-color:rgb(4, 154, 247);
+}
+.main {
+    position: relative;
+    margin-bottom: 500px;
+}
+.main .content {
+    position: absolute;
+    right: 5%;
+    top: 60%;
+    background-color: white;
+    width: 50%;
+    height: 400px;
+    line-height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main .content .btn {
+    width: 30%;
+}
+
+
+/* .main-contents .content-2 {
+    margin: 50px;
+    width: 60%;
+    color: white;
+    line-height: 30px;
+}
+.main-contents .content-2 h2 {
+    color: rgb(4, 231, 247);
+    margin-bottom: 30px;
+}
+.main-contents .content-2 p {
+    margin-top: 40px;
+}
+.main-contents .content-2 button {
+    margin-top: 40px;
+} */
+
+.main-contents .content-2 {
+    width: 50%;
+    height: 300px;
+    margin-left: 30px;
+    color: white;
+}
+.main-contents .content-2 h2 {
+    color:rgb(4, 247, 239);
+}
+.main-contents .content-2 .btn {
+    width: 30%;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boxes {
+    color: white;
+    margin: 100px 0px;
+    font-size: 1.2rem;
+}
+.boxes .col-2 h1 {
+    margin: 40px 0px;
+    font-weight: bold;
+    color: rgb(246, 226, 226);
+}
+
+/* Services */
+.services .row .col-3 img {
+    width: 100%;
+    height: 200px;
+}
+
+.services .content-1 {
+    background-color: rgb(210, 248, 246);
+    height: 300px;
+    text-align: center;
+}
+.services .content-2 {
+    background-color: orange;
+    height: 200px;
+}
+.services .content-3 {
+    background-color: rgb(223, 249, 223);
+    height: 200px;
+    text-align: center;
+    padding-top:150px;
+}
+
+.services .row .col-3 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.services {
+    position: relative;
+}
+.services .row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 100%;
+
+}
+
+/* Partners */
+.partners {
+    margin-top: 100px;
+}
+.partners .col-6 .row {
+    height: 200px;
+    align-items: center;
+}
+.partners .col-6 .row .col-3 img {
+    width: 150px;
+    height: 100px;
+}
+.partners .col-4 h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.partners .col-4 p {
+    line-height: 30px;
+    margin: 50px 0px;
+}
+
+/* Features */
+.features {
+    background-color: rgb(203, 203, 243);
+}
+.features .content-2 .col-4 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.features .content-2 .col-4 ul li i {
+    display: inline-block;
+    font-size: 30px;
+    height: 20px;
+    width: 30px;
+}
+.features .content-2 .col-4 a {
+    display: inline-block;
+    margin-top: 30px;
+    color:rgb(11, 172, 235);
+}
+.features .content-2 .col-4 .bi {
+    font-size: 40px;
+    color: rgb(111, 111, 244);
+}
+
+.features .content-1 {
+    text-align: center;
+}
+.features .content-1 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.features .content-1 p {
+    font-size: 25px;
+}
+.features .content-2 .row .col-4 {
+    padding-left: 30px;
+    margin: 40px 0px;
+}
+/* What we do */
+.what-we-do {
+    background-color: #5595e8;
+    color: white;
+}
+.what-we-do .content-1, .content-2 {
+    text-align: center;
+}
+.what-we-do .content-3 .col-3 {
+    outline: 10px solid orange;
+    width: 23%;
+    border-radius: 10px;
+}
+.what-we-do .content-3 {
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+.what-we-do .content-3 p {
+    margin: 50px 20px;
+    text-align: center;
+}
+
+
+
+/* Software */
+.software .content-2 .col-2 .bi {
+    font-size: 50px;
+}
+.software {
+    text-align: center;
+    background-color: rgb(199, 175, 223);
+}
+.software img {
+    width: 70%;
+    height: auto;
+    margin: 40px;
+    
+}
+.software .content-2 .col-2 {
+    background-color: rgb(236, 236, 236);
+   
+}
+
+
+/* Positioning the boxes */
+.software {
+    position: relative;
+    padding-bottom: 200px;
+}
+.software .content-2 {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.software .content-2 .col-2 {
+    border-radius: 5px;
+}
+
+
+/* Contact */
+.contact {
+    background-color: #5595e8;
+    color: white;
+    padding: 200px 0px 100px;
+}
+.contact .col-5 h2 {
+    font-size: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+footer p {
+    padding: 50px 0px;
+}
